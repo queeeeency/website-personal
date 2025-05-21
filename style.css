@@ -1,0 +1,199 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfcfa;
+  color: #333;
+}
+
+nav {
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc70;
+}
+
+header {
+  text-align: center;
+  padding: 20px 20px;
+  background: #ffeac2;
+}
+
+.carousel-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 10px 0;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  justify-content: center;
+  padding: 10px;
+}
+
+.carousel img:hover{
+  transform: scale(1.05) rotate(0deg);
+}
+
+.carousel img {
+  height: 280px;
+  width: auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.nav-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 2.5em;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+.bio-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bio-text {
+  max-width: 700px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.character-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.left-side {
+  flex: 1;
+  background-color: #ffeaf1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.left-side img {
+  width: 80%;
+  max-width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.right-side {
+  flex: 2;
+  padding: 40px;
+  background-color: #fffefc;
+  overflow-y: auto;
+}
+
+.right-side section {
+  margin-bottom: 30px;
+}
+
+.right-side h3 {
+  color: #e36c9d;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+.polaroid {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px 10px 25px 10px;
+  margin: 15px;
+  width: 80%;
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+  font-family: 'Courier New', monospace;
+}
+
+.polaroid:hover {
+  transform: scale(1.05) rotate(0deg);
+}
+
+.polaroid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.polaroid p {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+.bio-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.bio-text {
+  max-width: 600px;
+  text-align: left;
+  background: #fff6e5;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text h2 {
+  text-align: center; /* Keep the title centered */
+}
+
+.bio-text ul {
+  padding-left: 20px;
+}
